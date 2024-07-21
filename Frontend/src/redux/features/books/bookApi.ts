@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const bookApi = createApi({
   reducerPath: "bookApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://book-catalog-application-server.onrender.com/api/v1",
+    baseUrl: "https://book-catalog-app-delta.vercel.app/BooksData/Books",
   }),
   tagTypes: ["review"], // tags
   endpoints: (builder) => ({
