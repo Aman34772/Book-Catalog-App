@@ -5,7 +5,7 @@ mongoose.set("strictQuery", false); // for handling mongodb error
 
 // MongoDB connect
 mongoose
-  .connect(`${process.env.DB_URL}`)
+  .connect(`mongodb+srv://ak0350548:VxJlyDDuADyMzcd6@cluster0.0ur512q.mongodb.net/`)
   .then(() => {
     console.log("Database Connected Successfully");
   })
